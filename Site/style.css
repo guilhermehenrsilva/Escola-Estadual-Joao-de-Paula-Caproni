@@ -5,7 +5,7 @@ body{
 }
 
 div{
-    background:  #ccc;
+    background:  #eaeaea;
     height: 53px;
     width: 800px;
 
@@ -23,16 +23,16 @@ div{
 }
 
 .menu a {
-    background-color: #ccc;
+    background-color: #eaeaea;
     display: block;
     text-decoration: none;
     padding: 16px;
 }
 
 .menu a:hover{
-    background-color: #333;
+    background-color: #3c4048;
     color: white;
-    border-bottom: 6px solid rgb(187, 8, 8);
+    border-bottom: 6px solid #00abb3;
 }
 
 .menu.flex {

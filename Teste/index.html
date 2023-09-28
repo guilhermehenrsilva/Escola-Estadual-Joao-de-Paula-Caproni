@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EEJPC</title>
+    <style>
+        /* Estilos para o carrossel */
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            width: 100%; /* Largura desejada para o carrossel */
+            max-width: 800px; /* Largura máxima do carrossel */
+            margin: 0 auto;
+        }
+
+        .carousel img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para os botões de navegação */
+        .carousel-button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="div2">
+
+        <div>
+            <ul class="navSuperior">
+                <li>
+                    <a href="#">Telefone</a>
+                </li>
+                <li>
+                    <a href="#">Funcionamento</a>
+                </li>
+                <li>
+                    <a href="#">WEBMAIL</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <h1 id="headerName">
+        ESCOLA ESTADUAL JOÃO DE PAULA CAPRONI
+    </h1>
+
+    <!-- Início do carrossel -->
+    <div class="carousel">
+        <img src="imagem1.jpg" alt="Imagem 1">
+        <img src="imagem2.jpg" alt="Imagem 2">
+        <img src="imagem3.jpg" alt="Imagem 3">
+        <!-- Adicione mais imagens aqui -->
+    </div>
+
+    <button class="carousel-button" onclick="previousSlide()">Anterior</button>
+    <button class="carousel-button" onclick="nextSlide()">Próxima</button>
+    <!-- Fim do carrossel -->
+
+    <div>
+        <ul class="menuFlex">
+            <li>
+                <a href="#">Home</a>
+            </li>
+
+            <li>
+                <a href="#">Sobre nós</a>
+            </li>
+
+            <li>
+                <a href="#">Galeria</a>
+            </li>
+
+            <li>
+                <a href="#">Fale conosco</a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        const carousel = document.querySelector(".carousel");
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            const slides = carousel.querySelectorAll("img");
+            slides.forEach((slide, i) => {
+                slide.style.transform = `translateX(${100 * (i - index)}%)`;
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % carousel.childElementCount;
+            showSlide(currentIndex);
+        }
+
+        function previousSlide() {
+            currentIndex = (currentIndex - 1 + carousel.childElementCount) % carousel.childElementCount;
+            showSlide(currentIndex);
+        }
+
+        // Exibir o primeiro slide ao carregar a página
+        showSlide(currentIndex);

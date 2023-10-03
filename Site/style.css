@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  
+}
+.rodape{
+    background-color: #3c4048;
 }
 body{
     
@@ -20,15 +22,19 @@ body{
     background-color: #00abb3;
 }
 
-#headerName{
-
+.header-title {
     text-align: center;
     background-color: #00abb3;
-    height: 100%;
-    padding: 3rem;
+    padding: 1rem;
     margin: 0;
-    justify-content: center;
+    font-size: 2rem; /* Tamanho de texto padrão */
+}
 
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    .header-title {
+        font-size: 1.5rem; /* Tamanho de texto menor para telas menores */
+    }
 }
 
 .div2{
@@ -40,14 +46,15 @@ body{
 }
 
 
-.div2 p{
+.div2 p {
 
-    background:  #00abb3;
+    background-color:  #00abb3;
     height: 53px;
     /*width: 800px;*/
     width: auto;
 
 }
+
 
 .navSuperior ul {
     justify-content: center;
@@ -73,7 +80,7 @@ body{
     width: 100%;
 
 }
-
+ 
 
 .menuFlex ul {
     justify-content: center;

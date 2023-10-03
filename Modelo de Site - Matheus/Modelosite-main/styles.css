@@ -4,7 +4,6 @@ body {
 
     font-family: 'Inter', sans-serif;
     background-color: aliceblue;
-
 }
 
 /* Classe personalizada com tom de azul */
@@ -21,14 +20,21 @@ body {
     margin:0;
 }
 
-#headerName{
-
+.header-title {
     text-align: center;
-    background-color: #00abb3;
-    height: 100%;
-    padding: 3rem;
+    background-color: #3c4048;
+    padding: 2rem;
     margin: 0;
+    font-size: 2rem; /* Tamanho de texto padrão */
+    color: #fff; 
+}
 
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    .header-title {
+        
+        font-size: 1.5rem; /* Tamanho de texto menor para telas menores */
+    }
 }
 .navSuperior ul {
     color:#3c4048;
@@ -87,7 +93,7 @@ body {
     display: block;
     text-decoration: none;
     padding: 16px;
-    background-color:#3c4048;
+    background-color:#00abb3;
 }
 
 .menuFlex a:hover{
@@ -99,7 +105,7 @@ body {
 .menuFlex {
 
     color:antiquewhite;
-    background-color: #3c4048;
+    background-color: #00abb3;
     display: flex;
     gap: 5px;
     justify-content: center;
@@ -132,4 +138,53 @@ body {
 #donateBtn:hover {
     background-color: #00abb3;
 }
+
+/*-------------------------*/
+
+  
+.bodyslider {
+  background-color: #fcfbff;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+
+main {
+  height: 100vh;
+  width: 100%;
+  max-width: 1000px;
+  display: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+span {
+  font-size: x-large;
+}
+
+img {
+  box-shadow: 0 1px 2px #0003;
+  width: 100%;
+}
+
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}
+
+
 

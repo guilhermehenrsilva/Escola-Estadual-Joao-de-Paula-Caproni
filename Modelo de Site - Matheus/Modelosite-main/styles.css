@@ -22,13 +22,13 @@ body {
 
 .header-title {
     text-align: center;
-    background-color: #3c4048;
-    padding: 2rem;
+    background-color: aliceblue;
+    padding-left: 1rem;
     margin: 0;
     font-size: 2rem; /* Tamanho de texto padrão */
-    color: #fff; 
+    color: #3c4048; 
+    font-weight: bold;
 }
-
 /* Media query para telas menores */
 @media screen and (max-width: 768px) {
     .header-title {
@@ -36,19 +36,19 @@ body {
         font-size: 1.5rem; /* Tamanho de texto menor para telas menores */
     }
 }
-.navSuperior ul {
+.MenuNavSuperior ul {
     color:#3c4048;
     justify-content: center;
     
 }
 
-.navSuperior li{
+.MenuNavSuperior li{
     color:#3c4048;
     list-style: none;
     display: inline-block;
 }
 
-.navSuperior a{
+.MenuNavSuperior a{
 
     color:#3c4048;
     background-color:#8deef3;
@@ -60,7 +60,7 @@ body {
 
 }
 
-.navSuperior{
+.MenuNavSuperior{
 
     color:#3c4048;
     background-color:#8deef3;
@@ -113,6 +113,12 @@ body {
     margin: 0;
 }
 
+.text-center h3 {
+
+    scroll-padding-top: 10px;
+    
+}
+
 .col-md-6 p{
 
     text-align: justify;
@@ -121,6 +127,17 @@ body {
 
 .text-center h2{
     color:#00abb3;
+    margin:2px;
+    /*text-shadow: -1px 3px 0px rgba(207, 207, 207, 0.658); -> sombreado na letra*/
+
+}
+
+.col-md-12 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
 .col-md-6 h2{
@@ -140,18 +157,23 @@ body {
 }
 
 /*-------------------------*/
-
   
-.bodyslider {
-  background-color: #fcfbff;
+#idSlider {
+
+  height:30%;
+  width:100%;
+  padding-top: 5%;
+  align-items:center;
+  background-color:  aliceblue;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
+  margin-bottom:1%;
 }
 
 
+
 main {
-  height: 100vh;
   width: 100%;
   max-width: 1000px;
   display: center;
@@ -165,7 +187,7 @@ span {
 }
 
 img {
-  box-shadow: 0 1px 2px #0003;
+  /*box-shadow: 0 1px 2px #0003;*/
   width: 100%;
 }
 
@@ -174,10 +196,17 @@ img {
 }
 
 .swiper-slide {
+  
+  
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+*{
+    margin:0%;
+    padding:0%;
 }
 
 @media (max-width: 450px) {
@@ -186,5 +215,13 @@ img {
   }
 }
 
+.col-md-6 {
+    margin-top:0%;
+}
+
+#LogoPrincipalEscola {
+    height: 180px;
+    width: 180px;
+}
 
 

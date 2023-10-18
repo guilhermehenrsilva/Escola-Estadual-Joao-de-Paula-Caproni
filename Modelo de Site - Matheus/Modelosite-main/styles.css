@@ -226,3 +226,10 @@ img {
     width: 180px;
 }
 
+.contact img{
+
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    margin-right: 20px;
+}

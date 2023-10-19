@@ -6,6 +6,13 @@ body {
     background-color: aliceblue;
 }
 
+#bodyCabeçalho {
+
+    position:sticky;
+    top:0;
+    
+}
+
 /* Classe personalizada com tom de azul */
 .custom-blue-header {
     background-color: #00abb3; /* Tom de azul personalizado */

@@ -95,7 +95,7 @@ body {
 
 .menuFlex a {
 
-    color:#fff;
+    color:#000000;
     background-color: #eaeaea;
     display: block;
     text-decoration: none;
@@ -104,9 +104,9 @@ body {
 }
 
 .menuFlex a:hover{
-    background-color: #000000;
+    background-color: #8deef3;
     color: white;
-    border-bottom: 6px solid #00abb3;
+    /* border-bottom: 6px solid #00abb3; */
 }
 
 .menuFlex {
@@ -262,4 +262,10 @@ img {
 
 .contact {
     margin: 0.5rem;
+    
 }
+
+.informacoes{
+    text-align: center;
+}
+

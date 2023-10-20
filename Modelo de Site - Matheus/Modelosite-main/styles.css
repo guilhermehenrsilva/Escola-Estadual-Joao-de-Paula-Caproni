@@ -347,3 +347,9 @@ img {
 
     text-align:center;
 }
+
+
+.maps { 
+    justify-content: center;
+    display: flex;    
+    }

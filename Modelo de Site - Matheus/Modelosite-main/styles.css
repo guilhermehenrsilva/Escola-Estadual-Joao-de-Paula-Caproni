@@ -156,8 +156,8 @@ body {
 .btn-primary{
     color:#eaeaea;
     background-color:#027075;
-    align-content: center;
-    display: block;
+    justify-content: center;
+    text-align:center;
 
 }
 .btn-primary:hover{
@@ -298,3 +298,21 @@ img {
     
 }
 
+#titleInformacoes{
+
+    margin-top: 30px;
+    font-size: 2rem;
+
+}
+
+#conteudoInformacoes {
+
+    margin-top: 30px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+#btnSaiba {
+
+    text-align:center;
+}

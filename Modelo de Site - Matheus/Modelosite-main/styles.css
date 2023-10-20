@@ -3,8 +3,16 @@
 body {
 
     font-family: 'Inter', sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
+
+ body {
+
+background: #b4f0f2;
+background: linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
+background: -webkit-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
+background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
+} 
 
 #bodyCabeçalho {
 
@@ -12,6 +20,8 @@ body {
     top:0;
     
 }
+
+
 
 /* Classe personalizada com tom de azul */
 .custom-blue-header {
@@ -173,14 +183,23 @@ body {
 #idSlider {
 
   height:30%;
-  width:100%;
-  padding-top: 5%;
+  width: fit-content;
+  padding-right: 0;
   align-items:center;
-  background-color:  aliceblue;
+  /* background-color:  rgb(255, 255, 255); */
   display: flex;
   justify-content: center;
   box-sizing: border-box;
   margin-bottom:1%;
+  margin:0 auto;
+  padding-top: 15px;
+}
+
+#idSlider {
+
+    box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
 }
 
 
@@ -281,8 +300,20 @@ img {
 
 }
 
+#fotoNossaInstituicao {
+    box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+}
+
 #fotoMissao {
     padding-top:14px ;
+}
+
+#fotoMissao {
+    box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
 }
 
 #sobreInstituicao {

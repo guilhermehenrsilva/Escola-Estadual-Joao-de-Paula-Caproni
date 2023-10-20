@@ -78,8 +78,6 @@ body {
     margin:0;
 
 }
-
-
 .menuFlex ul {
     justify-content: center;
     background-color:#8deef3;
@@ -104,8 +102,8 @@ body {
 }
 
 .menuFlex a:hover{
-    background-color: #8deef3;
-    color: white;
+    background-color:#8deef3;
+    color: rgb(10, 10, 10);
     /* border-bottom: 6px solid #00abb3; */
 }
 
@@ -157,13 +155,17 @@ body {
 
 .btn-primary{
     color:#eaeaea;
-    background-color: #000000;
+    background-color:#027075;
+    align-content: center;
+    display: block;
 
 }
-
-
-#donateBtn:hover {
-    background-color: #00abb3;
+.btn-primary:hover{
+    background-color:#0d0d0d;
+   
+}
+.MenuNavSuperior a:hover{
+   color:#027075;
 }
 
 /*-------------------------*/
@@ -267,5 +269,32 @@ img {
 
 .informacoes{
     text-align: center;
+}
+
+#fotoMissao {
+    padding-top: 14px;
+}
+
+#fotoNossaInstituicao {
+
+    padding-top: 14px;
+
+}
+
+#fotoMissao {
+    padding-top:14px ;
+}
+
+#sobreInstituicao {
+    padding-top: 5px;
+}
+
+#txtEndereço {
+
+    color:#000000;
+    padding: 20px 0;
+    padding-top: 5px;
+    text-align: center; 
+    
 }
 

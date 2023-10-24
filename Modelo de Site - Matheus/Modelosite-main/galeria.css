@@ -352,3 +352,20 @@ img {
     justify-content: center;
     display: flex;    
     }
+
+
+    /*--------------------------------------*/
+
+    .grid-container{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2px;
+        justify-items: center;
+    }
+
+    .img-grid{
+        border: 1px solid ;
+        flex-direction: row;
+        display: flex; 
+    }

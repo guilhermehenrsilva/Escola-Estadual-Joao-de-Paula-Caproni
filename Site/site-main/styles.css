@@ -183,10 +183,10 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
 #idSlider {
 
   height:30%;
-  width: fit-content;
+  /* width: fit-content; */
   padding-right: 0;
   align-items:center;
-  /* background-color:  rgb(255, 255, 255); */
+  background-color:  rgb(255, 0, 0, 0);
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -195,14 +195,23 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
   padding-top: 15px;
 }
 
-#idSlider {
 
-    box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+
+
+/* #idSlider {
+ box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
 -webkit-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
 -moz-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+} */
+
+/* .img-slide{
+    width: fit-content;
+    max-width: max-content;
+} */
+#carouselExampleIndicators {
+    /* width: 80%; */
+    align-content: center;
 }
-
-
 main {
   width: 100%;
   max-width: 1000px;
@@ -212,6 +221,12 @@ main {
   justify-content: center;
 }
 
+#carouselExampleIndicators{
+    width: 80%;
+    align-content: center;
+    
+}
+ 
 span {
   font-size: x-large;
 }
@@ -226,8 +241,6 @@ img {
 }
 
 .swiper-slide {
-  
-  
   text-align: center;
   display: flex;
   align-items: center;
@@ -343,7 +356,7 @@ img {
 }
 
 #btnSaiba {
-
+    margin-top: 10px;
     text-align:center;
 }
 

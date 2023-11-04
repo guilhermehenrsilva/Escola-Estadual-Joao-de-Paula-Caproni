@@ -210,11 +210,11 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
 main {
   width: 100%;
   max-width: 1000px;
-  display: center;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
+  /* display: center; */
+  
+  /* align-content: center;
+  justify-content: center; */
+} 
 
 span {
   font-size: x-large;
@@ -376,40 +376,21 @@ img {
 
      /*----------------------------------*/
      /* Carts galeria*/ 
-     #main-projetos {
+    .cards{
+       
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto ;
     gap: 1em;
     padding: 5em;
-}
-
-.card {
+    justify-self: center;
     width: 30em;
-    height: 30em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    height: auto;
     padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.card-image-1 {
-    flex: 1;
-    background: url('./assets/Imagens/escola3.png') center/cover;
-}
-
-.card-image-2 {
-    flex: 1;
-    background: url('./assets/Imagens/escola3.png') center/cover;
-}
-
-.card-image-3 {
-    flex: 1;
-    background: url('/assets/otto.jpg') center/cover;
-}
-
-.card-info {
+.card-title {
     text-align: center;
 }
 
@@ -422,9 +403,9 @@ img {
     font-size: 1em;
 }
 
-.card-button {
+.card-body{
+    justify-items: center;
     text-align: center;
-    margin-top: 10px;
 }
 
 .card-button button {

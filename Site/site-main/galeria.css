@@ -201,7 +201,7 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
 
 #idSlider {
 
-    box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
 -webkit-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
 -moz-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
 }
@@ -379,15 +379,21 @@ img {
     .cards{
        
     display: grid;
-    grid-template-columns: auto auto auto auto ;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
     gap: 1em;
-    padding: 5em;
-    justify-self: center;
-    width: 30em;
+    width: 100%;
     height: auto;
     padding: 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
+    margin: 0;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .card-title {
@@ -417,3 +423,8 @@ img {
     cursor: pointer;
 }
 
+@media screen and (max-width: 900px){ /* A tela deve ter no minimo 1200px para receber a estilização*/
+    .cards {
+        grid-template-columns:auto;
+    }
+}

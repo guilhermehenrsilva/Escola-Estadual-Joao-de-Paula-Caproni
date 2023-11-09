@@ -46,13 +46,7 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
     color: #000000; 
     font-weight: bold;
 }
-/* Media query para telas menores */
-@media screen and (max-width: 768px) {
-    .header-title {
-        
-        font-size: 1.5rem; /* Tamanho de texto menor para telas menores */
-    }
-}
+
 .MenuNavSuperior ul {
     color:#000000;
     justify-content: center;
@@ -168,6 +162,7 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
     background-color:#027075;
     justify-content: center;
     text-align:center;
+    margin-top: 25px;
 
 }
 .btn-primary:hover{
@@ -194,9 +189,6 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
   margin:0 auto;
   padding-top: 15px;
 }
-
-
-
 
 /* #idSlider {
  box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
@@ -365,5 +357,15 @@ img {
     justify-content: center;
     display: flex;    
     }
+
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    .header-title {
+        
+        font-size: 1.5rem; /* Tamanho de texto menor para telas menores */
+    }
+}
+
+
 
     /*----------------------------------*/

@@ -301,24 +301,42 @@ img {
 #fotoNossaInstituicao {
 
     padding-top: 14px;
-
 }
 
 #fotoNossaInstituicao {
-    box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
--webkit-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
--moz-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
+
+    transition: all 0.10s;
+    cursor: pointer;
+}
+
+
+#fotoNossaInstituicao:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoMissao {
+    transition: all 0.10s;
+    cursor: pointer;
+}
+
+
+#fotoMissao:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
 }
 
 #fotoMissao {
     padding-top:14px ;
 }
 
-#fotoMissao {
+/* #fotoMissao {
     box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
 -webkit-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
 -moz-box-shadow: 9px 9px 11px -7px rgba(0,0,0,0.75);
-}
+} */
 
 #sobreInstituicao {
     padding-top: 5px;
@@ -357,6 +375,8 @@ img {
     justify-content: center;
     display: flex;    
     }
+
+
 
 /* Media query para telas menores */
 @media screen and (max-width: 768px) {

@@ -172,6 +172,10 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
 .MenuNavSuperior a:hover{
    color:#027075;
 }
+#actions-table {
+    justify-content: center;
+    padding-left: 10px;
+}
 
 /*-------------------------*/
   

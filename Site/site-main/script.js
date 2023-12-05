@@ -42,13 +42,13 @@ function loadCSV() {
 // Função para carregar e exibir dados da planilha do Google Sheets
 function loadGoogleSheetData() {
     // ID da planilha do Google Sheets
-    const spreadsheetId = '1XuWvCCAklYjlNbOUiXn198HdFskEtzYH0AYvVehQrGc';
+    const spreadsheetId = '1bT-fcdxvGwQzVoeHCFXTV0_egcwFDzKyz1mwvicpZN0';
     // ID da planilha dentro do documento (geralmente 0 para a primeira planilha)
     const sheetId = 0;
 
     gapi.client.sheets.spreadsheets.values.get({
         spreadsheetId: spreadsheetId,
-        range: 'info' // Substitua pelo nome da aba que você deseja ler
+        range: 'editais' // Substitua pelo nome da aba que você deseja ler
     }).then(function(response) {
         const data = response.result.values;
         const tableBody = document.querySelector('#actions-table tbody');
@@ -75,7 +75,7 @@ function loadGoogleSheetData() {
 // Função para inicializar a API do Google Sheets
 function initGoogleSheetsApi() {
     gapi.client.init({
-        apiKey: 'AIzaSyCKocwPx_0lAeKZq1R6TJ2lxJw6AHOWVug',
+        apiKey: 'AIzaSyBaTTO8WGMVNWCMWDiHBagqoRdLBHtseN4',
         discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
     }).then(function() {
         loadGoogleSheetData();

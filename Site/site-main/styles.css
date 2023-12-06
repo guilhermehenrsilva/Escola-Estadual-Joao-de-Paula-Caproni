@@ -23,7 +23,6 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
 
 
 
-/* Classe personalizada com tom de azul */
 .custom-blue-header {
     background-color: #00abb3; /* Tom de azul personalizado */
     color: #fff; /* Cor do texto */
@@ -300,17 +299,21 @@ img {
 
 #fotoMissao {
     padding-top: 14px;
+    width: 100%;
 }
 
 #fotoNossaInstituicao {
 
     padding-top: 14px;
+    padding-left: 80px;
+    width: 80%;
+    
 }
 
 #fotoNossaInstituicao {
 
     transition: all 0.10s;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 
@@ -322,7 +325,7 @@ img {
 
 #fotoMissao {
     transition: all 0.10s;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 
@@ -380,6 +383,31 @@ img {
     display: flex;    
     }
 
+.atividadeDesen{
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 100%;
+    padding-top: 10px;
+    align-items: flex-start;
+    
+}
+.atividadeDesen1 {
+    padding-left: 60px;
+    
+}
+.atividadeDesen2 {
+    padding-left: 120px;
+   
+}
+.atividadeDesen3  {
+    padding-left: 60px;
+    padding-top: 10px;
+    
+}
+.atividadeDesen4 {
+    padding-left: 120px;
+   
+}
 
 
 /* Media query para telas menores */

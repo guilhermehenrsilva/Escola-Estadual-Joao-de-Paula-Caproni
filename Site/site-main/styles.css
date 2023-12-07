@@ -175,6 +175,14 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
     justify-content: center;
     padding-left: 10px;
 }
+.endereco{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center; */
+    margin-top: 30px;
+    padding-right: 10px;
+    text-align: justify
+}
 
 /*-------------------------*/
   
@@ -299,14 +307,14 @@ img {
 
 #fotoMissao {
     padding-top: 14px;
-    width: 100%;
+    width: 80%;
 }
 
 #fotoNossaInstituicao {
 
     padding-top: 14px;
     padding-left: 80px;
-    width: 80%;
+    width: 85%;
     
 }
 
@@ -393,6 +401,7 @@ img {
 }
 .atividadeDesen1 {
     padding-left: 60px;
+    
     
 }
 .atividadeDesen2 {

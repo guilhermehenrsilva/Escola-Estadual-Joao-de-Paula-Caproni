@@ -307,7 +307,19 @@ img {
 
 #fotoMissao {
     padding-top: 14px;
+    padding-left: 80px;
     width: 80%;
+    
+}
+
+#fotoEndereço {
+    padding-left: 50px;
+    width: 70%;
+    padding-left: 40px;
+}
+
+.infomaçoesEndereço {
+justify-content: center;
 }
 
 #fotoNossaInstituicao {
@@ -366,10 +378,13 @@ img {
     
 }
 
+
+
 #titleInformacoes{
 
     margin-top: 30px;
     font-size: 2rem;
+    justify-content: left;
 
 }
 

@@ -318,6 +318,20 @@ img {
     padding-left: 40px;
 }
 
+#fotoInfo {
+    padding-top: 14px;
+    padding-left: 80px;
+    width: 80%;
+    
+}
+
+#fotoInfo2 {
+    padding-left: 50px;
+    width: 70%;
+    padding-left: 40px;
+}
+
+
 .infomaçoesEndereço {
 justify-content: center;
 }

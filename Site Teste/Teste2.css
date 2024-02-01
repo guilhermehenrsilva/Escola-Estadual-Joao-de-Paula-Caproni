@@ -1,0 +1,72 @@
+/* Adicione este CSS ao seu arquivo ou inclua em um arquivo separado */
+
+body {
+    font-family: Arial, sans-serif; /* Escolha a fonte desejada */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para a barra de navegação superior */
+.divNav1 {
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    color: #fff; /* Cor do texto na barra de navegação */
+    padding: 10px;
+    text-align: right;
+}
+
+.MenuNavSuperior {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.MenuNavSuperior li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.MenuNavSuperior a {
+    color: #fff; /* Cor do texto nos links da barra de navegação */
+    text-decoration: none;
+}
+
+/* Estilo para o cabeçalho */
+.divTitulo {
+    text-align: center;
+    padding: 20px;
+}
+
+#LogoPrincipalEscola {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-title {
+    margin-top: 10px;
+    color: #333; /* Cor do título */
+}
+
+/* Estilo para a barra de navegação principal */
+header ul.menuFlex {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #eee; /* Cor de fundo da barra de navegação principal */
+}
+
+header ul.menuFlex li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+header ul.menuFlex a {
+    display: block;
+    padding: 10px;
+    color: #333; /* Cor do texto nos links da barra de navegação principal */
+    text-decoration: none;
+}
+
+/* Estilo para links hover */
+header ul.menuFlex a:hover {
+    background-color: #ddd; /* Cor de fundo ao passar o mouse sobre os links */
+}

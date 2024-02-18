@@ -282,6 +282,8 @@ img {
 
     color:#000000;
     background-color:#00abb3;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .acitionDescription {
@@ -298,9 +300,29 @@ img {
 }
 
 #fotoMissao {
-    margin-top: 10px;
+    margin-top: 0px;
     padding-left: 30px;
-    width: 85%;
+    padding-bottom: 30px;
+    width: 90%;
+    
+}
+
+#fotoEnsino {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    width: 93%;
+    
+}
+
+#fotoServidores {
+    margin-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    width: 93%;
     
 }
 
@@ -350,11 +372,32 @@ justify-content: center;
 
     padding-top: 14px;
     padding-left: 80px;
-    width: 90%;
+    width: 95%;
     
 }
 
-#fotoNossaInstituicao {
+#fotoEstrutura {
+
+    padding-top: 0px;
+    padding-left: 80px;
+    width: 95%;
+    
+}
+
+#fotoComunidade {
+
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#fotoNossaInstituicao, #fotoEstrutura, #fotoComunidade, #fotoServidores, #fotoEnsino {
 
     transition: all 0.10s;
     /* cursor: pointer; */
@@ -362,6 +405,30 @@ justify-content: center;
 
 
 #fotoNossaInstituicao:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoEstrutura:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoEnsino:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoComunidade:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoServidores:hover {
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
 
@@ -397,6 +464,18 @@ justify-content: center;
     
 }
 
+#txtWhatsApp {
+
+    color:#000000;
+    padding: 20px 0;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center; 
+    
+}
+
+
 
 
 #titleInformacoes{
@@ -415,17 +494,17 @@ justify-content: center;
 }
 
 #btnSaiba {
+    
     margin-top: 10px;
     text-align:center;
 }
+
 
 
 .maps { 
     justify-content: center;
     display: flex;    
     }
-
-
 
 
 /* Media query para telas menores */

@@ -14,9 +14,111 @@
       }
 }
 
-/* -----------------------------------*/
+/* ---------------------------------- */
 
-@media (min-width: 280px) and (max-width: 380px) {
+@media (min-width: 180px) and (max-width: 279px) { /* #2 */
+
+    .divNav1 ul {
+        width:100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .divNav1 a {
+        font-size: 13px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .divTitulo {
+        height: 120px ;
+    }
+    
+    .header-title {
+        /* background-color: yellow; */
+        width: 250px;
+        font-size: 18px;
+        padding: 0px 20px 0px 0px;
+    }
+    
+    #LogoPrincipalEscola {
+        width: 100%;
+        height: 110px;
+        padding-left: 15px;
+    }
+    
+    .menuFlex {
+        height: 60px;
+    }
+    
+    .menuFlex li{
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .menuFlex a {
+        font-size: 13px;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    
+    h2, h3{
+        font-size: 18px;
+    }
+    
+    h2 {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    
+    p {
+        font-size: 13px;
+    }
+    
+    #text-missao li{
+        font-size: 13px;
+    }
+    
+    #textEndereco {
+        font-size: 18px;
+    }
+    
+    #donateBtn {
+        font-size: 13px;
+    }
+    
+    #fotoNossaInstituicao {
+    
+        padding-left: 25px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 90%;
+    }
+    
+    #fotoMissao {
+        padding-left: 25px;
+        width: 93%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+    .fa-phone, .fa-clock, .fa-envelope1 {
+        display: none;
+    }
+    
+    #contatos i {
+        width: 5%;
+    }
+
+}
+/* ----------------------------------- */
+
+@media (min-width: 280px) and (max-width: 380px) { /* #2 */
 
 .divNav1 ul {
     width:100%;

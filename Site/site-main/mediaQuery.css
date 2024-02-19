@@ -1,0 +1,26 @@
+/* Arquivo de Media Query para todas as telas */
+
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    .header-title {
+        
+        font-size: 1.5rem; /* Tamanho de texto menor para telas menores */
+    }
+
+@media (max-width: 450px) {
+        .swiper {
+          height: 270px;
+        }
+      }
+}
+
+/* -----------------------------------*/
+
+@media (min-width: 280px) and (max-width: 380px) {
+
+.MenuNavSuperior ul{
+    background-color: yellow;
+    width: 100%;
+}
+
+}

@@ -25,8 +25,6 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
     
 }
 
-
-
 /* Classe personalizada com tom de azul */
 .custom-blue-header {
     background-color: #00abb3; /* Tom de azul personalizado */
@@ -49,6 +47,92 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
     font-size: 2rem; /* Tamanho de texto padrão */
     color: #000000; 
     font-weight: bold;
+}
+
+.MenuNavSuperior ul {
+    color:#000000;
+    justify-content: center;
+    
+}
+
+.MenuNavSuperior li{
+    color:#000000;
+    list-style: none;
+    display: inline-block;
+}
+
+.MenuNavSuperior a{
+
+    color:#000000;
+    /* background-color:#8deef3; */
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    width:100%;
+    margin:0;
+
+}
+
+.MenuNavSuperior{
+
+    color:#000000;
+    /* background-color:#8deef3; */
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    width: 100%;
+    margin:0;
+
+}
+
+/* .menuFlex {
+    background-color: #00abb3;
+} */
+
+.menuFlex ul {
+    justify-content: center;
+    background-color:#00abb3;
+
+}
+
+.menuFlex li {
+    list-style: none;
+    display: inline-block;
+    background-color:#00abb3;
+
+}
+
+.menuFlex a {
+
+    color:#000000;
+    background-color: #eaeaea;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    background-color:#00abb3;
+}
+
+.menuFlex a:hover{
+    background-color:#8deef3;
+    color: rgb(10, 10, 10);
+    /* border-bottom: 6px solid #00abb3; */
+}
+
+.menuFlex li:hover{
+    background-color:#8deef3;
+    color: rgb(10, 10, 10);
+    /* border-bottom: 6px solid #00abb3; */
+}
+
+.menuFlex {
+
+    color:antiquewhite;
+    background-color: #00abb3;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
 }
 /* Media query para telas menores */
 @media screen and (max-width: 768px) {
@@ -94,14 +178,14 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
 }
 .menuFlex ul {
     justify-content: center;
-    background-color:#8deef3;
+    background-color:#00abb3;
 
 }
 
 .menuFlex li {
     list-style: none;
     display: inline-block;
-    background-color:#8deef3;
+    background-color:#00abb3;
 
 }
 
@@ -116,6 +200,12 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
 }
 
 .menuFlex a:hover{
+    background-color:#8deef3;
+    color: rgb(10, 10, 10);
+    /* border-bottom: 6px solid #00abb3; */
+}
+
+.menuFlex li:hover{
     background-color:#8deef3;
     color: rgb(10, 10, 10);
     /* border-bottom: 6px solid #00abb3; */

@@ -398,10 +398,29 @@ justify-content: center;
     
 }
 
+#fotoMatricula {
+
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    width: 90%;
+    
+}
+
 #fotoRedesSociais {
     margin-top: 0px;
     margin-bottom: 30px;
     padding-bottom: 30px;
+    padding-left: 30px;
+    width: 85%;
+    
+}
+
+#fotoProcesso {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
     padding-left: 30px;
     width: 85%;
     
@@ -422,7 +441,7 @@ justify-content: center;
 }
 
 #fotoNossaInstituicao, #fotoEstrutura, #fotoComunidade, #fotoServidores, #fotoEnsino,
-#fotoFuncionamento, #fotoRedesSocias {
+#fotoFuncionamento, #fotoRedesSocias, #fotoMatricula, #fotoProcesso {
 
     transition: all 0.10s;
     /* cursor: pointer; */
@@ -466,6 +485,18 @@ justify-content: center;
 }
 
 #fotoRedesSociais:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoMatricula:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoProcesso:hover {
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
 
